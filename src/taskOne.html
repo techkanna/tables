@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>One</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #fff;
+      }
+
+      table {
+        /* border: 1px solid green; */
+        border-spacing: 0;
+      }
+
+      table tr td.left {
+        background-color: #d8bfd869;
+      }
+
+      table tr td.right {
+        background-color: #00008057;
+      }
+
+      table tr td.left table.left-top {
+        background-color: #556b2f;
+        margin: 0 !important;
+      }
+      table tr td.left table.left-center {
+        background-color: #1e90ff;
+      }
+      table tr td.left table.left-bottom {
+        background-color: #008b8b;
+      }
+
+      tr {
+        /* border: 1px solid red; */
+        /* background-color: red; */
+      }
+
+      td {
+        /* border: 1px solid blue; */
+        padding: 0.1rem;
+      }
+
+      .div {
+        min-height: 100px;
+        min-width: 100px;
+      }
+
+      .right-top {
+        background-color: #4b0082;
+      }
+      .right-center {
+        background-color: #0000cd;
+      }
+      .right-bottom {
+        background-color: #ffa500;
+      }
+
+      .right .div {
+        min-height: 125px;
+        min-width: 125px;
+      }
+      .left-top-first-col {
+        width: 400px;
+        background-color: #3f48cc;
+        /* background-color: #ed1c24; */
+      }
+
+      .right-top-first-col {
+        min-width: 250px;
+        min-height: 125px;
+      }
+
+      .right-top-second-col {
+        min-width: 250px;
+        min-height: 125px;
+      }
+
+      .left-bottom-first-col {
+        width: 200px;
+        /* background-color: #ed1c24; */
+      }
+      .c-red {
+        background-color: #ed1c24;
+      }
+
+      .c-yellow {
+        background-color: #ff7f27;
+      }
+
+      .c-blue {
+        background-color: #3f48cc;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <table cellspacing="10">
+        <tr>
+          <!-- table start -->
+          <!-- first col -->
+          <td class="left">
+            <table cellspacing="10" class="left-top">
+              <tr>
+                <td><div class="left-top-first-col div"></div></td>
+
+                <td>
+                  <div class="div c-red"></div>
+                </td>
+              </tr>
+              <tr>
+                <td><div class="left-top-first-col div"></div></td>
+
+                <td>
+                  <div class="div c-red"></div>
+                </td>
+              </tr>
+            </table>
+
+            <table cellspacing="10" class="left-center">
+              <tr>
+                <td><div class="div c-red"></div></td>
+                <td><div class="div c-red"></div></td>
+                <td><div class="div c-red"></div></td>
+                <td><div class="div c-red"></div></td>
+                <td><div class="div c-red"></div></td>
+              </tr>
+            </table>
+
+            <table cellspacing="10" class="left-bottom">
+              <tr>
+                <td><div class="left-bottom-first-col div c-yellow"></div></td>
+
+                <td><div class="div c-red"></div></td>
+                <td><div class="div c-red"></div></td>
+                <td><div class="div c-red"></div></td>
+              </tr>
+              <tr>
+                <td><div class="left-bottom-first-col div c-yellow"></div></td>
+
+                <td><div class="div c-red"></div></td>
+                <td><div class="div c-red"></div></td>
+                <td><div class="div c-red"></div></td>
+              </tr>
+            </table>
+          </td>
+
+          <!-- second col -->
+          <td class="right">
+            <table cellspacing="10">
+              <table cellspacing="10" class="right-top">
+                <tr>
+                  <td><div class="right-top-first-col  c-blue"></div></td>
+                </tr>
+              </table>
+
+              <table cellspacing="10" class="right-center">
+                <tr>
+                  <td><div class="right-top-second-col  c-blue"></div></td>
+                </tr>
+              </table>
+
+              <table cellspacing="10" class="right-bottom">
+                <tr>
+                  <td><div class="div c-yellow"></div></td>
+                  <td><div class="div c-yellow"></div></td>
+                </tr>
+
+                <tr>
+                  <td><div class="div c-yellow"></div></td>
+                  <td><div class="div c-yellow"></div></td>
+                </tr>
+              </table>
+            </table>
+          </td>
+
+          <!-- table end -->
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>

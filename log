@@ -1,0 +1,204 @@
+ <table style="width: 500px;height: 400px; border-spacing: 9px;">
+        <tr>
+          <td colspan="3" style="background-color: #FA565A;width: 350px;"></td>
+          <td style="background-color: #FFFF00;width: 350px;"></td>
+        </tr>
+
+        <tr>
+          <td
+            rowspan="2"
+            colspan="2"
+            style="background-color: #FA565A;width: 150px;"
+          ></td>
+          <!-- <td rowspan="2" style="background-color: #FA565A;width: 150px;"></td> -->
+          <td colspan="2" style="background-color: #39A2FB;width: 450px;"></td>
+        </tr>
+        <tr>
+          <!-- <td style="background-color: #FA565A;width: 350px;"></td> -->
+          <!-- <td style="background-color: #FA565A;width: 350px;"></td> -->
+          <td colspan="2" style="background-color: #39A2FB;width: 450px;"></td>
+          <!-- <td style="background-color: #39A2FB;width: 450px;"></td> -->
+        </tr>
+      </table>
+
+
+      <table style="font-size: 2rem;border-spacing: 0; font-weight: 700;">
+        <tr>
+          <thead>
+            <td
+              colspan="2"
+              style="width: 600px;height: 100px;text-align: center; background-color: #ff0000;"
+            >
+              Header
+            </td>
+          </thead>
+        </tr>
+        <tr>
+          <tbody>
+            <td
+              style="width: 200px;text-align: center; background-color: #ffff00;"
+            >
+              Nav
+            </td>
+            <td>
+              <table style="font-size: 2rem;border-spacing: 0;">
+                <tr>
+                  <td
+                    style="width: 400px;height: 325px;text-align: center; background-color: #00ff00;"
+                  >
+                    Content
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style="width: 400px;height: 75px;text-align: center; background-color: #00ffff;"
+                  >
+                    Footer
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tbody>
+        </tr>
+      </table>
+
+
+
+
+      <tr>
+          <td colspan="12" rowspan="4"></td>
+        </tr>
+        <tr>
+          <td colspan="3" rowspan="8"></td>
+          <td colspan="9" rowspan="6"></td>
+        </tr>
+        <tr>
+          <!-- <td colspan="3"></td> -->
+          <td colspan="9" rowspan="2"></td>
+        </tr>
+        <tr style="width: 0; height: 0; opacity: 0;pointer-events: none;">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
