@@ -13,57 +13,74 @@
         min-height: 100vh;
         background-color: #fff;
       }
+
+      td {
+        border: 1px solid blue;
+      }
     </style>
   </head>
   <body>
-    <main style="display: flex;">
-      <table style="height: 500px;width: 500px;">
+    <table
+      style="
+      float: left;
+      border: 1px solid red;
+      border-collapse: initial;
+      width: 500px;
+      height: 500px;
+      "
+      class="newtable"
+      cellspacing="1"
+    >
+      <tbody>
         <tr>
-          <td colspan="4" rowspan="2" style="background-color: #3F48CC;"></td>
+          <td
+            style="width: 50px;background: #ff0;"
+            rowspan="3"
+            colspan="4"
+          ></td>
 
-          <td style="background-color: #ED1C24;"></td>
+          <td style="width:100px"></td>
+          <td
+            style="width:100px;width: 100px !important;"
+            rowspan="2"
+            colspan="2"
+          ></td>
         </tr>
-        <tr>
-          <!-- <td colspan="4"></td> -->
+        <tr class="half-width">
+          <td style="width:100px" rowspan="2"></td>
+        </tr>
 
-          <td style="background-color: #ED1C24;"></td>
+        <tr class="half-width">
+          <td style="width:100px" rowspan="3" colspan="2"></td>
         </tr>
-        <tr>
-          <td style="background-color: #ED1C24;"></td>
-          <td style="background-color: #ED1C24;"></td>
-          <td style="background-color: #ED1C24;"></td>
-          <td style="background-color: #ED1C24;"></td>
-          <td style="background-color: #ED1C24;"></td>
+        <tr class="mid-row">
+          <td style="width: 50px;"></td>
+          <td style="width:100px"></td>
+          <td style="width:100px"></td>
+          <td style="width:100px"></td>
+          <td style="width:100px"></td>
         </tr>
-        <tr>
-          <td colspan="2" rowspan="2" style="background-color: #FF7F27;"></td>
+        <tr class="small-width">
+          <td style="width: 50px;" rowspan="3" colspan="2"></td>
 
-          <td style="background-color: #ED1C24;"></td>
-          <td style="background-color: #ED1C24;"></td>
-          <td style="background-color: #ED1C24;"></td>
+          <td style="width:100px" rowspan="2"></td>
+          <td style="width:100px" rowspan="2"></td>
+          <td style="width:100px" rowspan="2"></td>
+        </tr>
+        <tr class="lower-width">
+          <td
+            style="width:100px;height: 35px !important;"
+            rowspan="2"
+            colspan="2"
+          ></td>
         </tr>
         <tr>
-          <!-- <td colspan="2"></td> -->
+          <td style="width:100px"></td>
+          <td style="width:100px"></td>
 
-          <td style="background-color: #ED1C24;"></td>
-          <td style="background-color: #ED1C24;"></td>
-          <td style="background-color: #ED1C24;"></td>
+          <td style="width:100px"></td>
         </tr>
-      </table>
-
-      <!-- second table -->
-      <table style="height: 500px;width: 400px;">
-        <tr>
-          <td colspan="2" style="background-color: #3F48CC;"></td>
-        </tr>
-        <tr>
-          <td colspan="2" style="background-color: #3F48CC;"></td>
-        </tr>
-        <tr>
-          <td style="background-color: #FF7F27;"></td>
-          <td style="background-color: #FF7F27;"></td>
-        </tr>
-      </table>
-    </main>
+      </tbody>
+    </table>
   </body>
 </html>

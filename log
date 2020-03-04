@@ -1,477 +1,151 @@
- <table style="width: 500px;height: 400px; border-spacing: 9px;">
-        <tr>
-          <td colspan="3" style="background-color: #FA565A;width: 350px;"></td>
-          <td style="background-color: #FFFF00;width: 350px;"></td>
-        </tr>
+<table style="
+float: left;
+border: 1px;
+border-collapse: initial;
+" class="newtable" cellspacing="1">
+<tbody>
 
+<tr>
+<td style="width: 50px;background: #ff0;" rowspan="3" colspan="4"></td>
+
+
+
+<td style="width:100px"></td>
+<td style="width:100px;width: 100px !important;" rowspan="2" colspan="2"></td>
+
+
+
+</tr><tr class="half-width">
+
+
+
+
+<td style="width:100px" rowspan="2"></td>
+
+
+
+
+</tr>
+
+<tr class="half-width">
+
+
+
+
+
+<td style="width:100px" rowspan="3" colspan="2"></td>
+
+
+
+</tr>
+<tr class="mid-row">
+<td style="width: 50px;"></td>
+<td style="width:100px"></td>
+<td style="width:100px"></td>
+<td style="width:100px"></td>
+<td style="width:100px"></td>
+
+
+
+
+</tr>
+<tr class="small-width">
+<td style="width: 50px;" rowspan="3" colspan="2"></td>
+
+<td style="width:100px" rowspan="2"></td>
+<td style="width:100px" rowspan="2"></td>
+<td style="width:100px" rowspan="2"></td>
+
+
+
+
+</tr>
+<tr class="lower-width">
+
+
+
+
+
+<td style="width:100px;height: 35px !important;" rowspan="2" colspan="2"></td>
+
+
+
+</tr>
+<tr>
+
+
+<td style="width:100px"></td>
+<td style="width:100px"></td>
+
+<td style="width:100px"></td>
+
+
+
+</tr>
+
+
+
+
+
+
+
+
+
+</tbody></table>
+
+
+
+
+
+task One v1.0.0
+---------------
+
+<main style="display: flex;">
+      <table style="height: 500px;width: 500px;">
         <tr>
-          <td
-            rowspan="2"
-            colspan="2"
-            style="background-color: #FA565A;width: 150px;"
-          ></td>
-          <!-- <td rowspan="2" style="background-color: #FA565A;width: 150px;"></td> -->
-          <td colspan="2" style="background-color: #39A2FB;width: 450px;"></td>
+          <td colspan="4" rowspan="2" style="background-color: #3F48CC;"></td>
+
+          <td style="background-color: #ED1C24;"></td>
         </tr>
         <tr>
-          <!-- <td style="background-color: #FA565A;width: 350px;"></td> -->
-          <!-- <td style="background-color: #FA565A;width: 350px;"></td> -->
-          <td colspan="2" style="background-color: #39A2FB;width: 450px;"></td>
-          <!-- <td style="background-color: #39A2FB;width: 450px;"></td> -->
+          <!-- <td colspan="4"></td> -->
+
+          <td style="background-color: #ED1C24;"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #ED1C24;"></td>
+          <td style="background-color: #ED1C24;"></td>
+          <td style="background-color: #ED1C24;"></td>
+          <td style="background-color: #ED1C24;"></td>
+          <td style="background-color: #ED1C24;"></td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="2" style="background-color: #FF7F27;"></td>
+
+          <td style="background-color: #ED1C24;"></td>
+          <td style="background-color: #ED1C24;"></td>
+          <td style="background-color: #ED1C24;"></td>
+        </tr>
+        <tr>
+          <!-- <td colspan="2"></td> -->
+
+          <td style="background-color: #ED1C24;"></td>
+          <td style="background-color: #ED1C24;"></td>
+          <td style="background-color: #ED1C24;"></td>
         </tr>
       </table>
 
-
-      <table style="font-size: 2rem;border-spacing: 0; font-weight: 700;">
+      <!-- second table -->
+      <table style="height: 500px;width: 400px;">
         <tr>
-          <thead>
-            <td
-              colspan="2"
-              style="width: 600px;height: 100px;text-align: center; background-color: #ff0000;"
-            >
-              Header
-            </td>
-          </thead>
+          <td colspan="2" style="background-color: #3F48CC;"></td>
         </tr>
         <tr>
-          <tbody>
-            <td
-              style="width: 200px;text-align: center; background-color: #ffff00;"
-            >
-              Nav
-            </td>
-            <td>
-              <table style="font-size: 2rem;border-spacing: 0;">
-                <tr>
-                  <td
-                    style="width: 400px;height: 325px;text-align: center; background-color: #00ff00;"
-                  >
-                    Content
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                    style="width: 400px;height: 75px;text-align: center; background-color: #00ffff;"
-                  >
-                    Footer
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tbody>
+          <td colspan="2" style="background-color: #3F48CC;"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #FF7F27;"></td>
+          <td style="background-color: #FF7F27;"></td>
         </tr>
       </table>
-
-
-
-
-      <tr>
-          <td colspan="12" rowspan="4"></td>
-        </tr>
-        <tr>
-          <td colspan="3" rowspan="8"></td>
-          <td colspan="9" rowspan="6"></td>
-        </tr>
-        <tr>
-          <!-- <td colspan="3"></td> -->
-          <td colspan="9" rowspan="2"></td>
-        </tr>
-        <tr style="width: 0; height: 0; opacity: 0;pointer-events: none;">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-
-
-
-
-
-         <tr>
-          <!-- table start -->
-          <!-- first col -->
-          <td class="left">
-            <table cellspacing="10" class="left-top">
-              <tr>
-                <td><div class="left-top-first-col div"></div></td>
-
-                <td>
-                  <div class="div c-red"></div>
-                </td>
-              </tr>
-              <tr>
-                <td><div class="left-top-first-col div"></div></td>
-
-                <td>
-                  <div class="div c-red"></div>
-                </td>
-              </tr>
-            </table>
-
-            <table cellspacing="10" class="left-center">
-              <tr>
-                <td><div class="div c-red"></div></td>
-                <td><div class="div c-red"></div></td>
-                <td><div class="div c-red"></div></td>
-                <td><div class="div c-red"></div></td>
-                <td><div class="div c-red"></div></td>
-              </tr>
-            </table>
-
-            <table cellspacing="10" class="left-bottom">
-              <tr>
-                <td><div class="left-bottom-first-col div c-yellow"></div></td>
-
-                <td><div class="div c-red"></div></td>
-                <td><div class="div c-red"></div></td>
-                <td><div class="div c-red"></div></td>
-              </tr>
-              <tr>
-                <td><div class="left-bottom-first-col div c-yellow"></div></td>
-
-                <td><div class="div c-red"></div></td>
-                <td><div class="div c-red"></div></td>
-                <td><div class="div c-red"></div></td>
-              </tr>
-            </table>
-          </td>
-
-          <!-- second col -->
-          <td class="right">
-            <table cellspacing="10">
-              <table cellspacing="10" class="right-top">
-                <tr>
-                  <td><div class="right-top-first-col  c-blue"></div></td>
-                </tr>
-              </table>
-
-              <table cellspacing="10" class="right-center">
-                <tr>
-                  <td><div class="right-top-second-col  c-blue"></div></td>
-                </tr>
-              </table>
-
-              <table cellspacing="10" class="right-bottom">
-                <tr>
-                  <td><div class="div c-yellow"></div></td>
-                  <td><div class="div c-yellow"></div></td>
-                </tr>
-
-                <tr>
-                  <td><div class="div c-yellow"></div></td>
-                  <td><div class="div c-yellow"></div></td>
-                </tr>
-              </table>
-            </table>
-          </td>
-
-          <!-- table end -->
-        </tr>
-
-
-
-
-
-          <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="5"></td>
-
-          <td colspan="2"></td>
-
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="5"></td>
-
-          <td colspan="2"></td>
-
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="5"></td>
-
-          <td colspan="2"></td>
-
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="5"></td>
-
-          <td colspan="2"></td>
-
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
+    </main>
