@@ -17,9 +17,14 @@
       td {
         border: 1px solid blue;
       }
+
+      tr {
+        background-color: #542;
+      }
     </style>
   </head>
   <body>
+    <!-- table row: 7, max-col: 5 -->
     <table
       style="
       float: left;
@@ -32,6 +37,7 @@
       cellspacing="1"
     >
       <tbody>
+        <!-- first row -->
         <tr>
           <td
             style="width: 50px;background: #ff0;"
@@ -46,13 +52,16 @@
             colspan="2"
           ></td>
         </tr>
+        <!-- second row -->
         <tr class="half-width">
           <td style="width:100px" rowspan="2"></td>
         </tr>
 
+        <!-- third row -->
         <tr class="half-width">
           <td style="width:100px" rowspan="3" colspan="2"></td>
         </tr>
+        <!-- four  -->
         <tr class="mid-row">
           <td style="width: 50px;"></td>
           <td style="width:100px"></td>
@@ -60,6 +69,7 @@
           <td style="width:100px"></td>
           <td style="width:100px"></td>
         </tr>
+        <!-- five -->
         <tr class="small-width">
           <td style="width: 50px;" rowspan="3" colspan="2"></td>
 
@@ -67,6 +77,7 @@
           <td style="width:100px" rowspan="2"></td>
           <td style="width:100px" rowspan="2"></td>
         </tr>
+        <!-- six -->
         <tr class="lower-width">
           <td
             style="width:100px;height: 35px !important;"
@@ -74,6 +85,7 @@
             colspan="2"
           ></td>
         </tr>
+        <!-- seven -->
         <tr>
           <td style="width:100px"></td>
           <td style="width:100px"></td>
